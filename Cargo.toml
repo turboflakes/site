@@ -1,0 +1,26 @@
+[workspace]
+members = [
+    "app",
+]
+
+resolver = "2"
+
+[workspace.package]
+name = "turboflakes-io"
+version = "0.1.0"
+license = "Apache-2.0"
+repository = "https://github.com/turboflakes/turboflakes.github.io"
+authors = ["Paulo <paulo@turboflakes.io>"]
+description = "Main repo of all things Turboflakes"
+edition = "2021"
+
+[workspace.dependencies]
+wasm-bindgen = "0.2.92"
+wasm-bindgen-futures = "0.4.39"
+wasm-logger = "0.2.0"
+yew = { version = "0.21", features = ["csr"] }
+yew-router = "0.18"
+yew-hooks = "0.3.2"
+subxt = { version = "0.37", default-features = false, features = ["web"], target_arch = "wasm32" }
+plot_icon = "0.3.0"
+log = "0.4"

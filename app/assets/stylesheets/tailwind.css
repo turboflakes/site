@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy/Gilroy-Heavy.woff");
+}
+
+html, body {
+    @apply font-mono bg-white dark:bg-gray-900 text-primary dark:text-gray-300 overflow-y-hidden;
+}
+
+h1 {
+    @apply font-gilroy text-4xl mb-8;
+}
+
+h4 {
+    @apply font-gilroy text-xl my-2;
+}
+
+b {
+    @apply font-bold;
+}
+
+p,li {
+    @apply text-sm leading-relaxed;
+}
+
+p,ul {
+    @apply mb-2;
+}
+
+code,footer,time {
+    @apply text-xs mb-2;
+}
+
+a {
+    @apply underline hover:underline-offset-2;
+}
+
+ul {
+    @apply list-disc list-inside;
+}
+
+.btn {
+    @apply text-sm font-bold hover:underline hover:underline-offset-2;
+}
