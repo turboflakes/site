@@ -7,7 +7,7 @@ pub fn navbar() -> Html {
         <nav class="fixed w-full z-20 top-0 start-0 bg-gradient-to-r from-white from-20%">
             <div class="flex items-center justify-between px-2 sm:p-4 h-12">
                 <a class="block" href="https://turboflakes.io/">
-                    <img class="h-8" src="/images/logo_turboflakes_r2.svg" alt="turboflakes logo" />
+                    <img class="h-8" src="/img/logo_turboflakes_r2.svg" alt="turboflakes logo" />
                 </a>
             </div>
         </nav>

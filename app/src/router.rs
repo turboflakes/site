@@ -12,8 +12,12 @@ pub fn index() -> Html {
     html! {
         <BrowserRouter>
             <div class="mx-auto h-screen overflow-auto">
-                <Switch<Routes> render={switch} />
-                <Footer />
+                <div class="bg-paper-texture">
+                    <div class="grid grid-cols-8 gap-4">
+                        <Switch<Routes> render={switch} />
+                    </div>
+                    <Footer />
+                </div>
             </div>
         </BrowserRouter>
     }

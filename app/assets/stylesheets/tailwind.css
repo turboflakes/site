@@ -11,6 +11,10 @@ html, body {
     @apply font-mono bg-white dark:bg-gray-900 text-primary dark:text-gray-300 overflow-y-hidden;
 }
 
+/* body {
+    @apply bg-paper-texture;
+} */
+
 h1 {
     @apply font-gilroy text-4xl mb-8;
 }

@@ -70,7 +70,7 @@ pub fn visit_link(props: &VisitLinkProps) -> Html {
     html! {
         <span class="ms-2 inline-flex items-baseline">
             { if !props.hidevisit {
-                html! { {"Visit"} }
+                html! { <p>{"Visit"}</p> }
                 } else {
                     html! {}
                 }

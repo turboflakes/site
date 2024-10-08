@@ -6,10 +6,10 @@ members = [
 resolver = "2"
 
 [workspace.package]
-name = "turboflakes-io"
+name = "site"
 version = "0.1.2"
 license = "Apache-2.0"
-repository = "https://github.com/turboflakes/turboflakes.github.io"
+repository = "https://github.com/turboflakes/site"
 authors = ["Paulo <paulo@turboflakes.io>"]
 description = "Main repo of all things Turboflakes"
 edition = "2021"

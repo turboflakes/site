@@ -243,7 +243,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo, ui-monospace, Monaco, 'Courier New', monospace;
   /* 1 */
   font-feature-settings: normal;
   /* 2 */
@@ -606,28 +606,28 @@ video {
   order: 9999;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
-.col-span-4 {
-  grid-column: span 4 / span 4;
-}
-
-.col-span-6 {
-  grid-column: span 6 / span 6;
-}
-
 .col-span-1 {
   grid-column: span 1 / span 1;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
 }
 
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
 
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
+
 .col-span-5 {
   grid-column: span 5 / span 5;
+}
+
+.col-span-6 {
+  grid-column: span 6 / span 6;
 }
 
 .col-span-8 {
@@ -644,6 +644,11 @@ video {
 
 .col-start-3 {
   grid-column-start: 3;
+}
+
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .mx-2 {
@@ -674,11 +679,6 @@ video {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 .mb-16 {
@@ -781,24 +781,16 @@ video {
   width: 1.5rem;
 }
 
+.w-\[128px\] {
+  width: 128px;
+}
+
 .w-\[192px\] {
   width: 192px;
 }
 
-.w-\[200px\] {
-  width: 200px;
-}
-
 .w-\[256px\] {
   width: 256px;
-}
-
-.w-\[320px\] {
-  width: 320px;
-}
-
-.w-\[384px\] {
-  width: 384px;
 }
 
 .w-full {
@@ -919,6 +911,10 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-paper-texture {
+  background-image: url('/img/paper.svg');
+}
+
 .from-white {
   --tw-gradient-from: #FFFFFF var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
@@ -947,11 +943,11 @@ video {
 }
 
 .font-gilroy {
-  font-family: "Gilroy", sans-serif;
+  font-family: Gilroy, sans-serif;
 }
 
 .font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo, ui-monospace, Monaco, 'Courier New', monospace;
 }
 
 .text-2xl {
@@ -1029,7 +1025,7 @@ html, body {
   overflow-y: hidden;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo, ui-monospace, Monaco, 'Courier New', monospace;
   --tw-text-opacity: 1;
   color: rgb(15 25 35 / var(--tw-text-opacity));
 }
@@ -1041,9 +1037,13 @@ html:where(.dark, .dark *), body:where(.dark, .dark *) {
   color: hsl(210 14% 89% / var(--tw-text-opacity));
 }
 
+/* body {
+    @apply bg-paper-texture;
+} */
+
 h1 {
   margin-bottom: 2rem;
-  font-family: "Gilroy", sans-serif;
+  font-family: Gilroy, sans-serif;
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
@@ -1051,7 +1051,7 @@ h1 {
 h4 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  font-family: "Gilroy", sans-serif;
+  font-family: Gilroy, sans-serif;
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
@@ -1113,16 +1113,8 @@ ul {
 }
 
 @media (min-width: 640px) {
-  .sm\:col-span-4 {
-    grid-column: span 4 / span 4;
-  }
-
   .sm\:col-span-6 {
     grid-column: span 6 / span 6;
-  }
-
-  .sm\:col-start-3 {
-    grid-column-start: 3;
   }
 
   .sm\:col-start-2 {
@@ -1138,8 +1130,24 @@ ul {
     display: inline-flex;
   }
 
-  .sm\:hidden {
-    display: none;
+  .sm\:w-\[192px\] {
+    width: 192px;
+  }
+
+  .sm\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .sm\:w-\[256px\] {
+    width: 256px;
+  }
+
+  .sm\:w-\[320px\] {
+    width: 320px;
+  }
+
+  .sm\:w-\[384px\] {
+    width: 384px;
   }
 
   .sm\:max-w-\[256px\] {
@@ -1152,16 +1160,8 @@ ul {
 }
 
 @media (min-width: 768px) {
-  .md\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .md\:col-span-1 {
     grid-column: span 1 / span 1;
-  }
-
-  .md\:col-span-3 {
-    grid-column: span 3 / span 3;
   }
 
   .md\:col-span-4 {
@@ -1172,12 +1172,12 @@ ul {
     grid-column: span 5 / span 5;
   }
 
-  .md\:col-start-3 {
-    grid-column-start: 3;
-  }
-
   .md\:col-start-2 {
     grid-column-start: 2;
+  }
+
+  .md\:col-start-3 {
+    grid-column-start: 3;
   }
 
   .md\:justify-start {
@@ -1190,16 +1190,8 @@ ul {
 }
 
 @media (min-width: 1280px) {
-  .xl\:col-span-1 {
-    grid-column: span 1 / span 1;
-  }
-
   .xl\:col-span-3 {
     grid-column: span 3 / span 3;
-  }
-
-  .xl\:col-span-2 {
-    grid-column: span 2 / span 2;
   }
 
   .xl\:col-start-3 {

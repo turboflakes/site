@@ -8,7 +8,7 @@ use yew::{function_component, html, Html};
 #[function_component(HomePage)]
 pub fn home() -> Html {
     html! {
-        <div class="grid grid-cols-8 gap-4">
+        <>
             <Section>
                 <p class="max-w-[1024px] mb-4">
                     <b>
@@ -25,7 +25,7 @@ pub fn home() -> Html {
                     {"Join us on our Web3 journey and exploration by"}
                     <span class="inline-flex items-baseline ms-2">
                         <a class="block" href="https://turboflakes.io/">
-                            <img class="h-6 inline-block" src="/images/logo/logo_turboflakes_r2.svg" alt="turboflakes logo" />
+                            <img class="h-6 inline-block" src="/img/logo/logo_turboflakes_r2.svg" alt="turboflakes logo" />
                         </a>
                     </span>
                 </p>
@@ -33,7 +33,7 @@ pub fn home() -> Html {
             // claim.it
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[192px]" src="/images/claimit_logo.svg" alt="claim.it" />
+                    <img class="w-[128px] sm:w-[192px]" src="/img/claimit_logo.svg" alt="claim.it" />
                 </div>
                 <p class="max-w-[1024px] text-center">
                     <b>{"claim.it"}</b>{" — is a decentralized application (dApp) to easy lookup and claim child bounties."}
@@ -46,7 +46,7 @@ pub fn home() -> Html {
             // corematch
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[384px]" src="/images/corematch_logo.svg" alt="corematch" />
+                    <img class="w-[256px] sm:w-[384px]" src="/img/corematch_logo.svg" alt="corematch" />
                 </div>
                 <p class="max-w-[1024px] text-center">
                     <b>{"COREMATCH"}</b>{" — is an unstopabble memory game where players match the latest Polkadot core usage in a 3x3 matrix board."}
@@ -59,7 +59,7 @@ pub fn home() -> Html {
             // one-t
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[192px]" src="/images/onet.svg" alt="one-t" />
+                    <img class="w-[128px] sm:w-[192px]" src="/img/onet.svg" alt="one-t" />
                 </div>
                 <p class="max-w-[1024px] text-center">
                     <b>{"ONE-T"}</b>{" — is a performance report bot. ONE-T is also an indexer and the backbone of a unique substrate blockchain analytics dashboard for Polkadot, Kusama and Paseo networks. ONE-T also acts as a nominator and curator bot for ONE-T Nomination Pools."}
@@ -73,7 +73,7 @@ pub fn home() -> Html {
             // crunch
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[200px]" src="/images/crunchbot.svg" alt="crunchbot" />
+                    <img class="w-[128px] sm:w-[200px]" src="/img/crunchbot.svg" alt="crunchbot" />
                 </div>
                 <p class="max-w-[1024px] text-center">
                     <b>{"CRUNCH"}</b>{" — is a command-line interface (CLI) and Matrix Bot to easily automate payouts of staking rewards."}
@@ -85,7 +85,7 @@ pub fn home() -> Html {
             // nomi
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[256px]" src="/images/nomi.svg" alt="nomi" />
+                    <img class="w-[192px] sm:w-[256px]" src="/img/nomi.svg" alt="nomi" />
                 </div>
                 <p class="max-w-[1024px] text-center">
                     <b>{"NOMI"}</b>{" — is a visual experience tool designed to actively involve Nominators in Native Staking. It aims to offer a unique and enhanced nomination experience, using Multiple-Criteria Decision Analysis as base for the analytical research."}
@@ -98,7 +98,7 @@ pub fn home() -> Html {
             // scouty
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[192px] sm:max-w-[256px]" src="/images/scouty.svg" alt="scoutybot" />
+                    <img class="w-[128px] sm:w-[192px] sm:max-w-[256px]" src="/img/scouty.svg" alt="scoutybot" />
                 </div>
                 <p class="max-w-[1024px] text-center">
                     <b>{"SCOUTY"}</b>{" — is a command-line interface (CLI) to keep an eye on substrate-based chains and hook things up. Scouty mainly purpose is to monitor, intercept and extend functionality as soon as on-chain events are emitted."}
@@ -110,7 +110,7 @@ pub fn home() -> Html {
             // Polkadot Validators
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[320px]" src="/images/vals/raiden.svg" alt="raiden" />
+                    <img class="w-[256px] sm:w-[320px]" src="/img/vals/raiden.svg" alt="raiden" />
                 </div>
                 <p class="max-w-[1024px] text-center mb-8">
                     <b>{"RAIDEN"}</b>{" — is a high-performance, A+ Validator that has been securing the Polkadot network since 2021. Raiden's commission is 1% and rewards are triggered every era."}
@@ -121,7 +121,7 @@ pub fn home() -> Html {
             </Section>
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[320px]" src="/images/vals/gokun.svg" alt="gokun" />
+                    <img class="w-[256px] sm:w-[320px]" src="/img/vals/gokun.svg" alt="gokun" />
                 </div>
                 <p class="max-w-[1024px] text-center mb-8">
                     <b>{"GOKUN"}</b>{" — is a supercomputer Validator warrior ready to handle demanding workloads to secure the Polkadot network. Like Raiden, Gokun's rewards are guaranteed by CRUNCH at the end of each era."}
@@ -133,7 +133,7 @@ pub fn home() -> Html {
             // Kusama Validators
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[384px]" src="/images/vals/kusama_family.svg" alt="family of kusama validators" />
+                    <img class="w-[256px] sm:w-[384px]" src="/img/vals/kusama_family.svg" alt="family of kusama validators" />
                 </div>
                 <p class="max-w-[1024px] text-center mb-8">
                     {"Kusama's expected chaos and the fast-paced canary network are supported by the latest generation of processors used by this family of Validators. All our Kusama validators share the same 10% commission and on all you get instant rewards every era."}
@@ -152,6 +152,6 @@ pub fn home() -> Html {
                 <p class="text-center">{"If you enjoy our work, a great way to support us is by nominating one of our Validators listed above!"}</p>
                 </div>
             </Section>
-        </div>
+        </>
     }
 }

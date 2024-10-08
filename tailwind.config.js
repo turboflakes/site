@@ -12,8 +12,12 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
-          gilroy: ['"Gilroy"', "sans-serif"],
+          gilroy: ["Gilroy", "sans-serif"],
+          mono: ["Menlo", "ui-monospace", "Monaco", "'Courier New'","monospace"]
         },
+        backgroundImage: {
+          'paper-texture': "url('/img/paper.svg')",
+        }
       },
       borderRadius: {
         'md': '1rem',

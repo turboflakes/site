@@ -15,16 +15,14 @@ pub fn page_not_found() -> Html {
     };
 
     html! {
-        <div class="grid grid-cols-8 gap-4">
-            <Section>
-                <h1>{"Page not found"}</h1>
-                <p>
-                    {"Sorry, the page you're looking for could not be found."}
-                </p>
-                <div class="my-4">
-                    <Button label={"< back"} {onclick} />
-                </div>
-            </Section>
-        </div>
+        <Section>
+            <h1>{"Page not found"}</h1>
+            <p>
+                {"Sorry, the page you're looking for could not be found."}
+            </p>
+            <div class="my-4">
+                <Button label={"< back"} {onclick} />
+            </div>
+        </Section>
     }
 }
