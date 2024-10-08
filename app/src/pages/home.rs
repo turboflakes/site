@@ -138,19 +138,13 @@ pub fn home() -> Html {
                 <p class="max-w-[1024px] text-center mb-8">
                     {"Kusama's expected chaos and the fast-paced canary network are supported by the latest generation of processors used by this family of Validators. All our Kusama validators share the same 10% commission and on all you get instant rewards every era."}
                 </p>
-                <div class="flex justify-center">
-                    <span class="flex flex-wrap gap-4 mb-4">
-                        <NominateCard address="GA7j1FHWXpEU4kavowEte6LWR3NgZ8bkv4spWa9joiQF5R2" identity="TURBOFLAKES.IO/MOMO"/>
-                        <NominateCard address="FZsMKYHoQG1dAVhXBMyC7aYFYpASoBrrMYsAn1gJJUAueZX" identity="TURBOFLAKES.IO/COCO"/>
-                        <NominateCard address="FUu6iSzpfStHnbtbzFy2gsnBLttwNgNSULSCQCgMjPfkYwF" identity="TURBOFLAKES.IO/DODO"/>
-                    </span>
-                </div>
-                <div class="flex justify-center">
-                    <span class="flex flex-wrap gap-4">
-                        <NominateCard address="GwJweN3Q8VjBMkd2wWLQsgMXrwmFLD6ihfS146GkmiYg5gw" identity="TURBOFLAKES.IO/TOTO"/>
-                        <NominateCard address="HS4wfui3HrAG3K7UUFsUK4PVd1GXtqRQUdT5vH18gyTe88D" identity="TURBOFLAKES.IO/JOJO"/>
-                        <NominateCard address="Fm9FrPpsUZQvRRWgQMQHqdHvGPxq3qfwEyCMi8GqNH6tbEJ" identity="TURBOFLAKES.IO/GOGO"/>
-                    </span>
+                <div class="flex flex-wrap justify-center gap-4 mb-4">
+                    <NominateCard address="GA7j1FHWXpEU4kavowEte6LWR3NgZ8bkv4spWa9joiQF5R2" identity="TURBOFLAKES.IO/MOMO"/>
+                    <NominateCard address="FZsMKYHoQG1dAVhXBMyC7aYFYpASoBrrMYsAn1gJJUAueZX" identity="TURBOFLAKES.IO/COCO"/>
+                    <NominateCard address="FUu6iSzpfStHnbtbzFy2gsnBLttwNgNSULSCQCgMjPfkYwF" identity="TURBOFLAKES.IO/DODO"/>
+                    <NominateCard address="GwJweN3Q8VjBMkd2wWLQsgMXrwmFLD6ihfS146GkmiYg5gw" identity="TURBOFLAKES.IO/TOTO"/>
+                    <NominateCard address="HS4wfui3HrAG3K7UUFsUK4PVd1GXtqRQUdT5vH18gyTe88D" identity="TURBOFLAKES.IO/JOJO"/>
+                    <NominateCard address="Fm9FrPpsUZQvRRWgQMQHqdHvGPxq3qfwEyCMi8GqNH6tbEJ" identity="TURBOFLAKES.IO/GOGO"/>
                 </div>
             </Section>
             <Section>
