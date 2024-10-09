@@ -7,6 +7,8 @@ pub struct NominateCardProps {
     pub address: AttrValue,
     // identity is the display name
     pub identity: AttrValue,
+    // chain [polkadot,kusama]
+    pub chain: AttrValue,
 }
 
 #[function_component(NominateCard)]
@@ -16,7 +18,12 @@ pub fn nominate(props: &NominateCardProps) -> Html {
             <Identicon address={props.address.to_string()} size={32} class="me-2" />
             <div class="flex flex-col">
                 <span class="font-mono text-xs text-left">{compact(props.address.to_string())}</span>
-                <span class="font-mono text-xs text-left">{props.identity.clone()}</span>
+                <span class="font-mono text-xs text-left">
+                    <a href={format!("https://apps.turboflakes.io/?chain={}#/validator/{}", props.chain.to_string(), props.address.to_string())} 
+                        target="_blank" class="flex hover:underline hover:underline-offset-2">
+                        {props.identity.clone()}
+                    </a>
+                </span>
             </div>
         </div>
     }

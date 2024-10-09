@@ -116,7 +116,7 @@ pub fn home() -> Html {
                     <b>{"RAIDEN"}</b>{" — is a high-performance, A+ Validator that has been securing the Polkadot network since 2021. Raiden's commission is 1% and rewards are triggered every era."}
                 </p>
                 <div class="flex justify-center">
-                    <NominateCard address="12gPFmRqnsDhc9C5DuXyXBFA23io5fSGtKTSAimQtAWgueD2" identity="TURBOFLAKES.IO/RAIDEN" />
+                    <NominateCard address="12gPFmRqnsDhc9C5DuXyXBFA23io5fSGtKTSAimQtAWgueD2" chain="polkadot" identity="TURBOFLAKES.IO/RAIDEN" />
                 </div>
             </Section>
             <Section>
@@ -127,7 +127,7 @@ pub fn home() -> Html {
                     <b>{"GOKUN"}</b>{" — is a supercomputer Validator warrior ready to handle demanding workloads to secure the Polkadot network. Like Raiden, Gokun's rewards are guaranteed by CRUNCH at the end of each era."}
                 </p>
                 <div class="flex justify-center">
-                    <NominateCard address="16BEvxYpyRWPaFbtwCPzSCtHVKr1soViaobKojNWBH12U5dk" identity="TURBOFLAKES.IO/GOKUN"/>
+                    <NominateCard address="16BEvxYpyRWPaFbtwCPzSCtHVKr1soViaobKojNWBH12U5dk" chain="polkadot" identity="TURBOFLAKES.IO/GOKUN"/>
                 </div>
             </Section>
             // Kusama Validators
@@ -139,12 +139,12 @@ pub fn home() -> Html {
                     {"Kusama's expected chaos and the fast-paced canary network are supported by the latest generation of processors used by this family of Validators. All our Kusama validators share the same 10% commission and on all you get instant rewards every era."}
                 </p>
                 <div class="flex flex-wrap justify-center gap-4 mb-4">
-                    <NominateCard address="GA7j1FHWXpEU4kavowEte6LWR3NgZ8bkv4spWa9joiQF5R2" identity="TURBOFLAKES.IO/MOMO"/>
-                    <NominateCard address="FZsMKYHoQG1dAVhXBMyC7aYFYpASoBrrMYsAn1gJJUAueZX" identity="TURBOFLAKES.IO/COCO"/>
-                    <NominateCard address="FUu6iSzpfStHnbtbzFy2gsnBLttwNgNSULSCQCgMjPfkYwF" identity="TURBOFLAKES.IO/DODO"/>
-                    <NominateCard address="GwJweN3Q8VjBMkd2wWLQsgMXrwmFLD6ihfS146GkmiYg5gw" identity="TURBOFLAKES.IO/TOTO"/>
-                    <NominateCard address="HS4wfui3HrAG3K7UUFsUK4PVd1GXtqRQUdT5vH18gyTe88D" identity="TURBOFLAKES.IO/JOJO"/>
-                    <NominateCard address="Fm9FrPpsUZQvRRWgQMQHqdHvGPxq3qfwEyCMi8GqNH6tbEJ" identity="TURBOFLAKES.IO/GOGO"/>
+                    <NominateCard address="GA7j1FHWXpEU4kavowEte6LWR3NgZ8bkv4spWa9joiQF5R2" chain="kusama" identity="TURBOFLAKES.IO/MOMO"/>
+                    <NominateCard address="FZsMKYHoQG1dAVhXBMyC7aYFYpASoBrrMYsAn1gJJUAueZX" chain="kusama" identity="TURBOFLAKES.IO/COCO"/>
+                    <NominateCard address="FUu6iSzpfStHnbtbzFy2gsnBLttwNgNSULSCQCgMjPfkYwF" chain="kusama" identity="TURBOFLAKES.IO/DODO"/>
+                    <NominateCard address="GwJweN3Q8VjBMkd2wWLQsgMXrwmFLD6ihfS146GkmiYg5gw" chain="kusama" identity="TURBOFLAKES.IO/TOTO"/>
+                    <NominateCard address="HS4wfui3HrAG3K7UUFsUK4PVd1GXtqRQUdT5vH18gyTe88D" chain="kusama" identity="TURBOFLAKES.IO/JOJO"/>
+                    <NominateCard address="Fm9FrPpsUZQvRRWgQMQHqdHvGPxq3qfwEyCMi8GqNH6tbEJ" chain="kusama" identity="TURBOFLAKES.IO/GOGO"/>
                 </div>
             </Section>
             <Section>
