@@ -17,7 +17,7 @@ pub fn navbar() -> Html {
 #[function_component(Footer)]
 pub fn footer() -> Html {
     html! {
-        <footer class="grid grid-cols-8 gap-4">
+        <footer class="grid grid-cols-8 gap-4 pb-4 mb-0">
             <div class="col-span-8 md:col-start-2 md:col-span-5 xl:col-start-3 xl:col-span-3 mx-2 sm:mx-0">
                 <div class="flex justify-center md:justify-start">
                     <span class="me-1">{"© 2024 turboflakes.io — Built by Turboflakes"}</span>
@@ -35,13 +35,13 @@ pub fn footer() -> Html {
             </div>
             <div class="col-span-8 md:col-span-1 mx-2 sm:mx-0">
                 <div class="flex justify-center md:justify-end">
-                    <a href="/about" class="ms-4">
+                    <a href="/#/about" class="ms-4">
                         {"About"}
                     </a>
-                    <a href="/privacy" class="ms-4">
+                    <a href="/#/privacy" class="ms-4">
                         {"Privacy"}
                     </a>
-                    <a href="/terms" class="ms-4">
+                    <a href="/#/terms" class="ms-4">
                         {"Terms"}
                     </a>
                 </div>

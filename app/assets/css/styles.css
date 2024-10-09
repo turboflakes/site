@@ -681,6 +681,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -803,6 +807,10 @@ video {
 
 .max-w-\[1024px\] {
   max-width: 1024px;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-grow {
@@ -934,6 +942,10 @@ video {
   padding-right: 0.5rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1036,10 +1048,6 @@ html:where(.dark, .dark *), body:where(.dark, .dark *) {
   --tw-text-opacity: 1;
   color: hsl(210 14% 89% / var(--tw-text-opacity));
 }
-
-/* body {
-    @apply bg-paper-texture;
-} */
 
 h1 {
   margin-bottom: 2rem;

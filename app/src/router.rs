@@ -1,6 +1,6 @@
 use crate::components::nav::Footer;
 use yew::{function_component, html, Html};
-use yew_router::{BrowserRouter, Routable, Switch};
+use yew_router::{HashRouter, Routable, Switch};
 
 use crate::pages::{
     about::AboutPage, home::HomePage, page_not_found::PageNotFound, privacy::PrivacyPage,
@@ -10,7 +10,7 @@ use crate::pages::{
 #[function_component(Index)]
 pub fn index() -> Html {
     html! {
-        <BrowserRouter>
+        <HashRouter>
             <div class="mx-auto h-screen overflow-auto">
                 <div class="bg-paper-texture">
                     <div class="grid grid-cols-8 gap-4">
@@ -19,7 +19,7 @@ pub fn index() -> Html {
                     <Footer />
                 </div>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     }
 }
 
