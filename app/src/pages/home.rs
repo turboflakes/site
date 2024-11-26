@@ -36,10 +36,8 @@ pub fn home() -> Html {
                     <img class="w-[128px] sm:w-[192px]" src="/img/claimit_logo.svg" alt="claim.it" />
                 </div>
                 <p class="text-center">
-                    <b>{"claim.it"}</b>{" — is a decentralized application (dApp) to easy lookup and claim child bounties."}
-                </p>
-                <p class="text-center">
-                    <VisitLink href="https://goclaimit.app/" label="goclaimit.app" />
+                    <b>{"claim.it"}</b>{" — is a decentralized application (dApp) with a simple UI for easy lookup and claim child bounties. This tool focuses on the beneficiary user, allowing them to follow, track, and claim rewards. You can try it out at"} 
+                    <VisitLink href="https://goclaimit.app/" hidevisit={true} label="goclaimit.app" />
                     <GithubLink href="https://github.com/turboflakes/claimit" />
                 </p>
             </Section>
@@ -49,10 +47,8 @@ pub fn home() -> Html {
                     <img class="w-[256px] sm:w-[384px]" src="/img/corematch_logo.svg" alt="corematch" />
                 </div>
                 <p class="text-center">
-                    <b>{"COREMATCH"}</b>{" — is an unstopabble memory game where players match the latest Polkadot core usage in a 3x3 matrix board."}
-                </p>
-                <p class="text-center">
-                    <VisitLink href="https://corematch.io/" label="corematch.io" />
+                    <b>{"COREMATCH"}</b>{" — is an engaging memory game where players match the latest Polkadot core usage in a 3x3 matrix board. The game is designed to highlight the randomness in the multi-core protocol implementation of the Polkadot network. You can play it at"}
+                    <VisitLink href="https://corematch.io/" hidevisit={true} label="corematch.io" />
                     <GithubLink href="https://github.com/turboflakes/corematch" />
                 </p>
             </Section>
@@ -62,7 +58,7 @@ pub fn home() -> Html {
                     <img class="w-[128px] sm:w-[192px]" src="/img/onet.svg" alt="one-t" />
                 </div>
                 <p class="text-center">
-                    <b>{"ONE-T"}</b>{" — is a performance report bot. ONE-T is also an indexer and the backbone of a unique substrate blockchain analytics dashboard for Polkadot, Kusama and Paseo networks. ONE-T also acts as a nominator and curator bot for ONE-T Nomination Pools."}
+                    <b>{"ONE-T"}</b>{" — is an indexer and the backbone of a unique analytics dashboard for the Polkadot, Kusama, and Paseo networks. It also serves as a performance report Matrix Bot, nominator, and curator bot for Turboflakes Nomination Pools."}
                 </p>
                 <p class="text-center">
                     <VisitLink href="https://apps.turboflakes.io/#/dashboard" label="apps.turboflakes.io" />
@@ -76,7 +72,7 @@ pub fn home() -> Html {
                     <img class="w-[128px] sm:w-[200px]" src="/img/crunchbot.svg" alt="crunchbot" />
                 </div>
                 <p class="text-center">
-                    <b>{"CRUNCH"}</b>{" — is a command-line interface (CLI) and Matrix Bot to easily automate payouts of staking rewards."}
+                    <b>{"CRUNCH"}</b>{" — is a command-line interface (CLI) and Matrix Bot to easily automate payouts of staking rewards. Allows stakers to get notified about the amount and rate of the total staking rewards each Validator and their Nominators got and is also a handy tool for Pools Operators to auto-compound members rewards."}
                 </p>
                 <p class="text-center">
                     <GithubLink href="https://github.com/turboflakes/crunch" />
@@ -148,9 +144,20 @@ pub fn home() -> Html {
                 </div>
             </Section>
             <Section>
-                <div class="flex justify-center">
-                    <p class="text-center">{"If you enjoy our work, a great way to support us is by nominating one of our Validators listed above!"}</p>
-                </div>
+                <p class="text-center mb-4">
+                    {"Among the tooling above — which we hope to serve as inspiration for fellow tinkerers and builders out there — we also provide RPC and Collators infrastructure for the common good."}
+                </p>
+                <p class="text-center">
+                    {"If you enjoy our work, join one of our Nomination Pools or Nominate our Validators "}
+                    <span class="inline-flex items-baseline me-2">
+                        <a class="block" href="https://turboflakes.io/">
+                            <img class="h-6 inline-block" src="/img/logo/logo_turboflakes_r2.svg" alt="turboflakes logo" />
+                        </a>
+                    </span>
+                </p>
+                <p class="text-center mb-4">
+                    {"Thanks for reading."}
+                </p>
             </Section>
         </>
     }
