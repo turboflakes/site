@@ -36,7 +36,7 @@ pub fn home() -> Html {
                     <img class="w-[128px] sm:w-[192px]" src="/img/claimit_logo.svg" alt="claim.it" />
                 </div>
                 <p class="text-center">
-                    <b>{"claim.it"}</b>{" — is a decentralized application (dApp) with a simple UI for easy lookup and claim child bounties. This tool focuses on the beneficiary user, allowing them to follow, track, and claim rewards. You can try it out at"} 
+                    <b>{"claim.it"}</b>{" — is a decentralized application (dApp) with a simple UI for easy lookup and claim child bounties. This tool focuses on the beneficiary user, allowing them to follow, track, and claim child bounty awards. You can try it out at"} 
                     <VisitLink href="https://goclaimit.app/" hidevisit={true} label="goclaimit.app" />
                     <GithubLink href="https://github.com/turboflakes/claimit" />
                 </p>
@@ -120,7 +120,7 @@ pub fn home() -> Html {
                     <img class="w-[256px] sm:w-[320px]" src="/img/vals/gokun.svg" alt="gokun" />
                 </div>
                 <p class="text-center mb-8">
-                    <b>{"GOKUN"}</b>{" — is a supercomputer Validator warrior ready to handle demanding workloads to secure the Polkadot network. Like Raiden, Gokun's rewards are guaranteed by CRUNCH at the end of each era."}
+                    <b>{"GOKUN"}</b>{" — is a supercomputer Validator warrior ready to handle demanding workloads to secure the Polkadot network. Gokun's commission is 3%. Similar to Raiden, rewards are guaranteed by CRUNCH at the end of each era."}
                 </p>
                 <div class="flex justify-center">
                     <NominateCard address="16BEvxYpyRWPaFbtwCPzSCtHVKr1soViaobKojNWBH12U5dk" chain="polkadot" identity="TURBOFLAKES.IO/GOKUN"/>
@@ -144,19 +144,19 @@ pub fn home() -> Html {
                 </div>
             </Section>
             <Section>
-                <p class="text-center mb-4">
-                    {"Among the tooling above — which we hope to serve as inspiration for fellow tinkerers and builders out there — we also provide RPC and Collators infrastructure for the common good."}
+                <p class="mb-8">
+                    {"Beyond the projects and Validators mentioned above, we also provide RPC and Collators infrastructure for Polkadot and Kusama."}
                 </p>
-                <p class="text-center">
-                    {"If you enjoy our work, join one of our Nomination Pools or Nominate our Validators "}
-                    <span class="inline-flex items-baseline me-2">
+                <p class="mb-8">
+                    {"We hope you use and enjoy our work, make the most of it. We hope it could inspire fellow tinkerers and builders out there. If you'd like to support us further, consider joining our nomination pools or nominating one of our validators. Your backing makes a difference!"}
+                </p>
+                <p>
+                    {"Thanks for reading. "}
+                    <span class="inline-flex items-baseline ms-2">
                         <a class="block" href="https://turboflakes.io/">
                             <img class="h-6 inline-block" src="/img/logo/logo_turboflakes_r2.svg" alt="turboflakes logo" />
                         </a>
                     </span>
-                </p>
-                <p class="text-center mb-4">
-                    {"Thanks for reading."}
                 </p>
             </Section>
         </>
