@@ -20,7 +20,7 @@ pub fn footer() -> Html {
         <footer class="grid grid-cols-8 gap-4 pb-4 mb-0">
             <div class="col-span-8 md:col-start-2 md:col-span-5 xl:col-start-3 xl:col-span-3 mx-2 sm:mx-0">
                 <div class="flex justify-center md:justify-start">
-                    <span class="me-1">{"© 2024 turboflakes.io — Built by Turboflakes"}</span>
+                    <span class="me-1">{"© 2024 turboflakes.io"}</span>
                     <span class="hidden sm:inline-flex items-center">
                         <a href="https://turboflakes.io/" target="_blank" class="ms-2">
                             <svg class="w-4 h-4" viewBox="0 0 60 60" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

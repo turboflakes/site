@@ -10,15 +10,15 @@ pub fn home() -> Html {
     html! {
         <>
             <Section>
-                <p class="mb-4">
+                <p class="mb-6">
                     <b>
                     {"Embrace Web3 and the Open-Source Movement!"}
                     </b>
                 </p>
-                <p class="mb-4">
+                <p class="mb-6">
                     {"On this site, you'll find a compilation of ideas.. including work-in-progress utilities, tools, bots, visual identities, digital experiences, decentralized applications (dApps), and services — all built on top of open-source technology for the Polkadot ecosystem. Each is a small but meaningful contribution to the open and decentralized web values we proudly champion and remain committed to."}
                 </p>
-                <p class="mb-4">
+                <p class="mb-6">
                     {"These tools are designed to help and simplify interactions with Substrate-based blockchain networks, enhance understanding of key components of the Polkadot protocol, and uncover patterns through visualization. We make them up as we go, with no long-term plans. Some are built to address challenges we stumble upon, while others are created as a way to explore and learn new tech, and by sharing them, we hope others find them useful and make the most out of them."}
                 </p>
                 <p>
@@ -58,7 +58,7 @@ pub fn home() -> Html {
                     <img class="w-[128px] sm:w-[192px]" src="/img/onet.svg" alt="one-t" />
                 </div>
                 <p class="text-center">
-                    <b>{"ONE-T"}</b>{" — is an indexer and the backbone of a unique analytics dashboard for the Polkadot, Kusama, and Paseo networks. It also serves as a performance report Matrix Bot, nominator, and curator bot for Turboflakes Nomination Pools."}
+                    <b>{"ONE-T"}</b>{" — is an indexer and the backbone of a unique analytics dashboard for the Polkadot, Kusama, and Paseo networks. It also serves as a performance report Matrix Bot, Nominator, and Curator bot for "}<i>{"Turboflakes Nomination Pools."}</i>
                 </p>
                 <p class="text-center">
                     <VisitLink href="https://apps.turboflakes.io/#/dashboard" label="apps.turboflakes.io" />
@@ -144,14 +144,17 @@ pub fn home() -> Html {
                 </div>
             </Section>
             <Section>
-                <p class="mb-8">
+                <p class="mb-6">
                     {"Beyond the projects and Validators mentioned above, we also provide RPC and Collators infrastructure for Polkadot and Kusama."}
                 </p>
-                <p class="mb-8">
-                    {"We hope you use and enjoy our work, make the most of it. We hope it could inspire fellow tinkerers and builders out there. If you'd like to support us further, consider joining our nomination pools or nominating one of our validators. Your backing makes a difference!"}
+                <p class="mb-6">
+                    {"We hope you enjoy and find some these projects useful. And we wish it could inspire fellow tinkerers and builders out there. If for any of these projects you have an idea, a feature request, a fix or you found a bug, we would be really grateful if you could let us know or even open an issue in the project repo - we will to do our best to fix it or make your request available."}
+                </p>
+                <p class="mb-6">
+                    {"You can also give us a follow, consider joining our nomination pools or nominate one of our validators. Your backing makes a difference!"}
                 </p>
                 <p>
-                    {"Thanks for reading. "}
+                    {"Thanks for reading"}
                     <span class="inline-flex items-baseline ms-2">
                         <a class="block" href="https://turboflakes.io/">
                             <img class="h-6 inline-block" src="/img/logo/logo_turboflakes_r2.svg" alt="turboflakes logo" />
