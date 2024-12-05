@@ -36,7 +36,7 @@ pub fn home() -> Html {
                     <img class="w-[128px] sm:w-[192px]" src="/img/claimit_logo.svg" alt="claim.it" />
                 </div>
                 <p class="text-center">
-                    <b>{"claim.it"}</b>{" — is a decentralized application (dApp) with a simple UI for easy lookup and claim child bounties. This tool focuses on the beneficiary user, allowing them to follow, track, and claim child bounty awards. You can try it out at"} 
+                    <b>{"claim.it"}</b>{" — is a decentralized application (dApp) with a simple user interface, making it easy to look up and claim child bounties. The tool is designed for beneficiary users, allowing them to follow and claim child bounty awards that interest them most. You can try it out at"} 
                     <VisitLink href="https://goclaimit.app/" hidevisit={true} label="goclaimit.app" />
                     <GithubLink href="https://github.com/turboflakes/claimit" />
                 </p>
@@ -148,7 +148,7 @@ pub fn home() -> Html {
                     {"Beyond the projects and Validators mentioned above, we also provide RPC and Collators infrastructure for Polkadot and Kusama."}
                 </p>
                 <p class="mb-6">
-                    {"We hope you enjoy and find some these projects useful. And we wish it could inspire fellow tinkerers and builders out there. If for any of these projects you have an idea, a feature request, a fix or you found a bug, we would be really grateful if you could let us know or even open an issue in the project repo - we will to do our best to fix it or make your request available."}
+                    {"We hope you enjoy and find some of these projects useful. And we wish it could inspire fellow tinkerers and builders out there. If for any of these projects you have an idea, a feature request, a fix or you found a bug, we would be really grateful if you could let us know or even open an issue in the project repo - we will do our best to fix it or make your request available."}
                 </p>
                 <p class="mb-6">
                     {"You can also give us a follow, consider joining our nomination pools or nominate one of our validators. Your backing makes a difference!"}
