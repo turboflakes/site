@@ -36,7 +36,7 @@ pub fn home() -> Html {
                     <img class="w-[128px] sm:w-[192px]" src="/img/claimit_logo.svg" alt="claim.it" />
                 </div>
                 <p class="text-center">
-                    <b>{"claim.it"}</b>{" — is a decentralized application (dApp) with a simple user interface, making it easy to look up and claim child bounties. The tool is designed for beneficiary users, allowing them to follow and claim child bounty awards that interest them most. You can try it out at"} 
+                    <b>{"claim.it"}</b>{" — is a decentralized application (dApp) with a simple user interface, making it easy to look up and claim child bounties. The tool is designed for beneficiary users, allowing them to follow and claim their favorite child bounty awards. You can try it out at"} 
                     <VisitLink href="https://goclaimit.app/" hidevisit={true} label="goclaimit.app" />
                     <GithubLink href="https://github.com/turboflakes/claimit" />
                 </p>
