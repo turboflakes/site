@@ -48,7 +48,7 @@ pub fn home() -> Html {
                 </div>
                 <p class="text-center">
                     <b>{"COREMATCH"}</b>{" — is an engaging memory game where players match the latest Polkadot core usage in a 3x3 matrix board. The game is designed to highlight the randomness in the multi-core protocol implementation of the Polkadot network. You can play it at"}
-                    <VisitLink href="https://corematch.io/" hidevisit={true} label="corematch.io" />
+                    <VisitLink href="https://corematch.xyz/" hidevisit={true} label="corematch.xyz" />
                     <GithubLink href="https://github.com/turboflakes/corematch" />
                 </p>
             </Section>

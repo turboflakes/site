@@ -18,7 +18,7 @@ pub fn page() -> Html {
             <time>{"Last updated: October 08, 2024"}</time>
             <h1>{"Privacy Policy"}</h1>
             <p>
-                {"The privacy of our website visitors is important to us so we do not track any individual people. As a visitor to the turboflakes.io, apps.turboflakes.io (or any other subdomain), goclaimit.app, corematch.io listed in this website:"}
+                {"The privacy of our website visitors is important to us so we do not track any individual people. As a visitor to the turboflakes.io, apps.turboflakes.io (or any other subdomain), goclaimit.app, corematch.xyz listed in this website:"}
             </p>
             <ul>
                 <li>{"No personal information is collected"}</li>
