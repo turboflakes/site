@@ -36,7 +36,7 @@ pub fn home() -> Html {
                     <img class="w-[128px] sm:w-[192px]" src="/img/claimit_logo.svg" alt="claim.it" />
                 </div>
                 <p class="text-center">
-                    <b>{"claim.it"}</b>{" — is a decentralized application (dApp) with a simple user interface, making it easy to look up and claim child bounties. The tool is designed for beneficiary users, allowing them to follow and claim their favorite child bounty awards. You can try it out at"} 
+                    <b>{"claim.it"}</b>{" — is a decentralized application (dApp) with a simple user interface, making it easy to look up and claim child bounties. The tool is designed for beneficiary users, allowing them to follow and claim their favorite child bounty awards. You can try it out at"}
                     <VisitLink href="https://goclaimit.app/" hidevisit={true} label="goclaimit.app" />
                     <GithubLink href="https://github.com/turboflakes/claimit" />
                 </p>
@@ -129,10 +129,10 @@ pub fn home() -> Html {
             // Kusama Validators
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[256px] sm:w-[384px]" src="/img/vals/kusama_family.svg" alt="family of kusama validators" />
+                    <img class="w-[256px] sm:w-[384px]" src="/img/vals/kusama_family.webp" alt="family of kusama validators" />
                 </div>
                 <p class="text-center mb-8">
-                    {"Kusama's expected chaos and the fast-paced canary network are supported by the latest generation of processors used by this family of Validators. All our Kusama validators share the same 10% commission and on all you get instant rewards every era."}
+                    {"Kusama's expected chaos and the fast-paced canary network are supported by the latest generation of processors used by this family of Validators. All our Kusama validators share the same 15% commission and on all you get instant rewards every era."}
                 </p>
                 <div class="flex flex-wrap justify-center gap-4 mb-4">
                     <NominateCard address="GA7j1FHWXpEU4kavowEte6LWR3NgZ8bkv4spWa9joiQF5R2" chain="kusama" identity="TURBOFLAKES.IO/MOMO"/>
@@ -141,6 +141,9 @@ pub fn home() -> Html {
                     <NominateCard address="GwJweN3Q8VjBMkd2wWLQsgMXrwmFLD6ihfS146GkmiYg5gw" chain="kusama" identity="TURBOFLAKES.IO/TOTO"/>
                     <NominateCard address="HS4wfui3HrAG3K7UUFsUK4PVd1GXtqRQUdT5vH18gyTe88D" chain="kusama" identity="TURBOFLAKES.IO/JOJO"/>
                     <NominateCard address="Fm9FrPpsUZQvRRWgQMQHqdHvGPxq3qfwEyCMi8GqNH6tbEJ" chain="kusama" identity="TURBOFLAKES.IO/GOGO"/>
+                    <NominateCard address="H2DRrJ1k3L4DyTGsCfhdo4mGNCf2fmx2X1XgePB9yqXvpvc" chain="kusama" identity="TURBOFLAKES.IO/BOBO"/>
+                    <NominateCard address="G7HPomns9WnruzqbS3JH8gDfef8V1SsbrjQ7qnsckep8ct6" chain="kusama" identity="TURBOFLAKES.IO/LOLO"/>
+                    <NominateCard address="HtR5DB7uwmQwU49p9XrFNKW35b2EaH8Ac7abAamyUYZyUvX" chain="kusama" identity="TURBOFLAKES.IO/FOFO"/>
                 </div>
             </Section>
             <Section>
