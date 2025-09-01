@@ -1,7 +1,5 @@
 [workspace]
-members = [
-    "app",
-]
+members = ["app"]
 
 resolver = "2"
 
@@ -21,6 +19,6 @@ wasm-logger = "0.2.0"
 yew = { version = "0.21", features = ["csr"] }
 yew-router = "0.18"
 yew-hooks = "0.3.2"
-subxt = { version = "0.37", default-features = false, features = ["web"], target_arch = "wasm32" }
+subxt = { version = "0.43", default-features = false, features = ["web"] }
 plot_icon = "0.3.0"
 log = "0.4"

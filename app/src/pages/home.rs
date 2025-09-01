@@ -106,24 +106,18 @@ pub fn home() -> Html {
             // Polkadot Validators
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[256px] sm:w-[320px]" src="/img/vals/raiden.svg" alt="raiden" />
+                    <img class="w-[256px] sm:w-[512px]" src="/img/vals/polkadot_family.webp" alt="family of polkadot validators" />
                 </div>
                 <p class="text-center mb-8">
-                    <b>{"RAIDEN"}</b>{" — is a high-performance, A+ Validator that has been securing the Polkadot network since 2021. Raiden's commission is 1% and rewards are triggered every era."}
+                    {"From left to right, "}<b>{"RAIDEN"}</b>{", "}<b>{"GOKUN"}</b>{", and "}<b>{"GALEN"}</b>{" are our high-performance, A+ Validators. "}<b>{"RAIDEN"}</b>{" has been securing the Polkadot network since 2021, while "}<b>{"GOKUN"}</b>{" and "}<b>{"GALEN"}</b>{" are proud members of the Decentralized Nodes Program, supported by the Web3 Foundation."} <VisitLink href="https://nodes.web3.foundation" label="program and rules." hidevisit={false} />
                 </p>
-                <div class="flex justify-center">
+                <p class="text-center mb-8">
+                {"Together, they’re supercharged and ready to handle the most demanding workloads to keep the Polkadot network safe and secure. Staking rewards are triggered every era and you can track their performance through the links below."}
+                </p>
+                <div class="flex justify-center gap-4 mb-4">
                     <NominateCard address="12gPFmRqnsDhc9C5DuXyXBFA23io5fSGtKTSAimQtAWgueD2" chain="polkadot" identity="TURBOFLAKES.IO/RAIDEN" />
-                </div>
-            </Section>
-            <Section>
-                <div class="flex justify-center mb-16">
-                    <img class="w-[256px] sm:w-[320px]" src="/img/vals/gokun.svg" alt="gokun" />
-                </div>
-                <p class="text-center mb-8">
-                    <b>{"GOKUN"}</b>{" — is a supercomputer Validator warrior ready to handle demanding workloads to secure the Polkadot network. Gokun's commission is 3%. Similar to Raiden, rewards are guaranteed by CRUNCH at the end of each era."}
-                </p>
-                <div class="flex justify-center">
-                    <NominateCard address="16BEvxYpyRWPaFbtwCPzSCtHVKr1soViaobKojNWBH12U5dk" chain="polkadot" identity="TURBOFLAKES.IO/GOKUN"/>
+                    <NominateCard address="16BEvxYpyRWPaFbtwCPzSCtHVKr1soViaobKojNWBH12U5dk" chain="polkadot" identity="TURBOFLAKES.IO/GOKUN" />
+                    <NominateCard address="145QiuMq8w1vBVXfwDVFxUSchdRZ6W1tTGb1uZ45TcoUskRC" chain="polkadot" identity="TURBOFLAKES.IO/GALEN" />
                 </div>
             </Section>
             // Kusama Validators

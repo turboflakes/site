@@ -1162,6 +1162,10 @@ ul {
     width: 384px;
   }
 
+  .sm\:w-\[512px\] {
+    width: 512px;
+  }
+
   .sm\:max-w-\[256px\] {
     max-width: 256px;
   }
