@@ -33,7 +33,7 @@ pub fn home() -> Html {
             // suno
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[384px] sm:w-[512px]" src="/img/suno_banner.webp" alt="suno" />
+                    <img class="w-[128px] sm:w-[192px]" src="/img/suno_banner_vert.webp" alt="suno" />
                 </div>
                 <p class="text-center">
                     <b>{"suno"}</b>{" — is a terminal user interface (TUI) to monitor live data and manage your own or third-party nodes. It supports Polkadot, Kusama, Paseo, and Westend networks. Checkout the project on GitHub."}
