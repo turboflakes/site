@@ -36,8 +36,11 @@ pub fn home() -> Html {
                     <img class="w-[128px] sm:w-[192px]" src="/img/suno_logo_dark.webp" alt="suno" />
                 </div>
                 <p class="text-center">
-                    <b>{"suno"}</b>{" — Yet another way to manage Substrate Node Operations from your terminal. It is a terminal user interface (TUI) to monitor live data and manage your own or third-party nodes. Supports Polkadot, Kusama, Paseo, and Westend networks. Read more about the project on GitHub."}
-                    <GithubLink href="https://github.com/turboflakes/suno" />
+                    <b>{"suno"}</b>{" — Yet another way to manage Substrate Node Operations from your terminal. It is a terminal user interface (TUI) to monitor live data and manage your own or third-party nodes. Supports Polkadot, Kusama, Paseo, and Westend networks. Read more about the project on"}
+                    <VisitLink href="https://github.com/turboflakes/suno" hidevisit={true} label="GitHub" />
+                </p>
+                <p class="text-center">
+                    {"— first release 03/2026"}<GithubLink href="https://github.com/turboflakes/suno" />
                 </p>
             </Section>
             // claim.it
@@ -48,18 +51,9 @@ pub fn home() -> Html {
                 <p class="text-center">
                     <b>{"claim.it"}</b>{" — is a decentralized application (dApp) with a simple user interface, making it easy to look up and claim child bounties. The tool is designed for beneficiary users, allowing them to follow and claim their favorite child bounty awards. You can try it out at"}
                     <VisitLink href="https://goclaimit.app/" hidevisit={true} label="goclaimit.app" />
-                    <GithubLink href="https://github.com/turboflakes/claimit" />
                 </p>
-            </Section>
-            // corematch
-            <Section>
-                <div class="flex justify-center mb-16">
-                    <img class="w-[256px] sm:w-[384px]" src="/img/corematch_logo.svg" alt="corematch" />
-                </div>
                 <p class="text-center">
-                    <b>{"COREMATCH"}</b>{" — is an engaging memory game where players match the latest Polkadot core usage in a 3x3 matrix board. The game is designed to highlight the randomness in the multi-core protocol implementation of the Polkadot network. You can play it at"}
-                    <VisitLink href="https://corematch.xyz/" hidevisit={true} label="corematch.xyz" />
-                    <GithubLink href="https://github.com/turboflakes/corematch" />
+                    {"— first release 07/2024"}<GithubLink href="https://github.com/turboflakes/claimit" />
                 </p>
             </Section>
             // one-t
@@ -69,11 +63,10 @@ pub fn home() -> Html {
                 </div>
                 <p class="text-center">
                     <b>{"ONE-T"}</b>{" — is an indexer and the backbone of a unique analytics dashboard for the Polkadot, Kusama, and Paseo networks. It also serves as a performance report Matrix Bot, Nominator, and Curator bot for "}<i>{"Turboflakes Nomination Pools."}</i>
+                    <VisitLink href="https://apps.turboflakes.io/#/dashboard" label="apps.turboflakes.io" />
                 </p>
                 <p class="text-center">
-                    <VisitLink href="https://apps.turboflakes.io/#/dashboard" label="apps.turboflakes.io" />
-                    <GithubLink href="https://github.com/turboflakes/one-t" />
-                    <GithubLink href="https://github.com/turboflakes/apps" />
+                    {"— first release 03/2022"}<GithubLink href="https://github.com/turboflakes/one-t" />
                 </p>
             </Section>
             // crunch
@@ -85,7 +78,7 @@ pub fn home() -> Html {
                     <b>{"CRUNCH"}</b>{" — is a command-line interface (CLI) and Matrix Bot to easily automate payouts of staking rewards. Allows stakers to get notified about the amount and rate of the total staking rewards each Validator and their Nominators got and is also a handy tool for Pools Operators to auto-compound members rewards."}
                 </p>
                 <p class="text-center">
-                    <GithubLink href="https://github.com/turboflakes/crunch" />
+                    {"— first release 07/2021"}<GithubLink href="https://github.com/turboflakes/crunch" />
                 </p>
             </Section>
             // nomi
@@ -95,10 +88,23 @@ pub fn home() -> Html {
                 </div>
                 <p class="text-center">
                     <b>{"NOMI"}</b>{" — is a visual experience tool designed to actively involve Nominators in Native Staking. It aims to offer a unique and enhanced nomination experience, using Multiple-Criteria Decision Analysis as base for the analytical research."}
+                    <VisitLink href="https://apps.turboflakes.io/?chain=polkadot&app=nomi#/dashboard" label="apps.turboflakes.io" />
                 </p>
                 <p class="text-center">
-                    <VisitLink href="https://apps.turboflakes.io/?chain=polkadot&app=nomi#/dashboard" label="apps.turboflakes.io" />
-                    <GithubLink href="https://github.com/turboflakes/apps" />
+                    {"— first release 08/2022"}<GithubLink href="https://github.com/turboflakes/apps" />
+                </p>
+            </Section>
+            // corematch
+            <Section>
+                <div class="flex justify-center mb-16">
+                    <img class="w-[256px] sm:w-[384px]" src="/img/corematch_logo.svg" alt="corematch" />
+                </div>
+                <p class="text-center">
+                    <b>{"COREMATCH"}</b>{" — is an engaging memory game where players match the latest Polkadot core usage in a 3x3 matrix board. The game is designed to highlight the randomness in the multi-core protocol implementation of the Polkadot network. You can play it at"}
+                    <VisitLink href="https://corematch.xyz/" hidevisit={true} label="corematch.xyz" />
+                </p>
+                <p class="text-center">
+                    {"— first release 03/2024"}<GithubLink href="https://github.com/turboflakes/corematch" />
                 </p>
             </Section>
             // scouty
@@ -110,7 +116,7 @@ pub fn home() -> Html {
                     <b>{"SCOUTY"}</b>{" — is a command-line interface (CLI) to keep an eye on substrate-based chains and hook things up. Scouty mainly purpose is to monitor, intercept and extend functionality as soon as on-chain events are emitted."}
                 </p>
                 <p class="text-center">
-                    <GithubLink href="https://github.com/turboflakes/scouty" />
+                    {"— first release 01/2022"}<GithubLink href="https://github.com/turboflakes/scouty" />
                 </p>
             </Section>
             // Polkadot Validators
