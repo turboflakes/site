@@ -33,10 +33,10 @@ pub fn home() -> Html {
             // suno
             <Section>
                 <div class="flex justify-center mb-16">
-                    <img class="w-[128px] sm:w-[192px]" src="/img/suno_banner_vert.webp" alt="suno" />
+                    <img class="w-[128px] sm:w-[192px]" src="/img/suno_logo_dark.webp" alt="suno" />
                 </div>
                 <p class="text-center">
-                    <b>{"suno"}</b>{" — is a terminal user interface (TUI) to monitor live data and manage your own or third-party nodes. It supports Polkadot, Kusama, Paseo, and Westend networks. Checkout the project on GitHub."}
+                    <b>{"suno"}</b>{" — Yet another way to manage Substrate Node Operations from your terminal. It is a terminal user interface (TUI) to monitor live data and manage your own or third-party nodes. Supports Polkadot, Kusama, Paseo, and Westend networks. Read more about the project on GitHub."}
                     <GithubLink href="https://github.com/turboflakes/suno" />
                 </p>
             </Section>
